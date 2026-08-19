@@ -1,0 +1,38 @@
+.header {
+  border-bottom: 1px solid #eaeaea;
+
+  h3,
+  p {
+    margin: 0;
+  }
+}
+
+.header-Info {
+  img {
+    margin-right: 15px;
+  }
+}
+
+.header-Info-title {
+  h3 {
+    color: var(--font-color-black);
+  }
+  p {
+    color: var(--font-color-lightGray);
+  }
+}
+
+.header-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  svg {
+    margin-right: 5px;
+  }
+
+  svg,
+  span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
